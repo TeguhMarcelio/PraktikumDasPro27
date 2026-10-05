@@ -32,7 +32,7 @@ public class StudiKasus27 {
             System.out.println("Kembaliannya adalah Rp. "+kembalian);
         } else {
             kurang = uangBayar - totalBayar;
-            System.out.println("Uang tidak cukup, kurang Rp. "+ kurang);
+            System.out.println("Uang tidak cukup, kurang Rp. "+ Math.abs(kurang));
         }
         
     }
